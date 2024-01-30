@@ -17,26 +17,26 @@ div span {
     margin: 10px;
 }
 div span:nth-child(1) {
-    animation-name: toRight;
+    animation-name: height;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 div span:nth-child(2) {
-    animation-name: toRight;
+    animation-name: height;
     animation-duration: 1s;
     animation-delay: 1s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 div span:nth-child(3) {
-    animation-name: toRight;
+    animation-name: height;
     animation-duration: 1s;
     animation-delay: 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-@keyframes toRight {
+@keyframes height {
     to {
         height: 30px;
     }
